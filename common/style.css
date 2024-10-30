@@ -1,0 +1,53 @@
+.mei-pian-post-item-list {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    height: auto;
+}
+
+.mei-pian-post-item {
+    display: block;
+    height: 90px;
+    border-top: solid 1px #EEE;
+    padding: 8px 0px;
+}
+
+.mei-pian-post-item:hover {
+    background-color: #eeeeee;
+}
+
+.mei-pian-post-item:first-child {
+    border-top: none !important;
+}
+
+.mei-pian-post-item .img-thumb {
+    border-radius: 4px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 0px 10px 0px 0;
+}
+
+.mei-pian-post-item .title {
+    font-size: 17px;
+    color: #555;
+    font-weight: normal;
+    margin-top: 0px;
+    overflow: hidden;
+    line-height: 1.3em;
+    height: 46px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.mei-pian-post-item .description {
+    font-size: 14px;
+    color: #AAA;
+    height: 24px;
+    overflow: hidden;
+    line-height: 1.8em;
+}
